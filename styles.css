@@ -1,36 +1,66 @@
-p {
-    font-family: 'Lexend Deca', 'Times New Roman';
-    font-size: 16px;
-    opacity:50%;
-}
+/*Establishing font*/
+    h1, h2, ul, p {
+        font-family: "Lexend Deca";
+    }
 
- h1 {
-    font-family: "Lexend Deca";
-    font-size: 24px;
-    opacity: 100%;
+/*Typical and Legit Styling*/
 
-    /*background-image: url(images/ImageFolder/SymphDolph.png);*/
-}
+    p {
+        font-size: 16px;
+        opacity:50%;
+    }
 
-a:hover {
-    text-decoration: none;
-    color:aquamarine;
-}
+    h1 {
+        font-size: 56px;
+        opacity: 100%;
 
-a::after {
-    color: darkviolet;
-}
+        /*background-image: url(images/ImageFolder/SymphDolph.png);*/
+    }
 
-h1, p {
-    text-align: center;
-}
+    h1, p {
+        text-align: center;
+    }
 
-h2 {
-    font-family: "Lexend Deca";
-    text-indent: 40px;
-    line-height: 40px;
-    font-weight: 300;
+    h2 {
+        text-indent: 40px;
+        line-height: 40px;
+        font-weight: 300;
 
-    width: 33%;
-    padding-left: 50px;
-}
+        width: 33%;
+        padding-left: 160px;
+        padding-top: 36px;
+        padding-bottom: 18px;
+    }
+
+    h3 {
+        padding-left: 1080px;
+        padding-right: 108px;
+        padding-top: 54px;
+        padding-bottom: 54px;
+
+        background-color: aquamarine;
+
+        font-weight: 300;
+    }
+
+    ul {
+        list-style: circle;
+    }
+
+    h3::first-line{
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+
+/*Link Graphics*/
+    a:hover {
+        text-decoration: none;
+        color:aquamarine; 
+    }
+
+    a::after {
+        color: darkviolet;
+    }
+
+
