@@ -1,13 +1,36 @@
 p {
     font-family: 'Lexend Deca', 'Times New Roman';
-    font-size: 48px;
+    font-size: 16px;
     opacity:50%;
 }
 
  h1 {
     font-family: "Lexend Deca";
-    font-size: 64px;
+    font-size: 24px;
     opacity: 100%;
 
-      background-image: url(images/ImageFolder/SymphDolph.png);
+    /*background-image: url(images/ImageFolder/SymphDolph.png);*/
+}
+
+a:hover {
+    text-decoration: none;
+    color:aquamarine;
+}
+
+a::after {
+    color: darkviolet;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Lexend Deca";
+    text-indent: 40px;
+    line-height: 40px;
+    font-weight: 300;
+
+    width: 33%;
+    padding-left: 50px;
 }
