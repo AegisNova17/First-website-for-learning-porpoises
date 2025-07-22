@@ -1,6 +1,8 @@
 h1 { 
     color: hotpink;
-    border-bottom: dotted, purple;
+    border-bottom: 10px;
+    border-bottom-style: dotted;
+    border-bottom-color: purple;
 }
 
 h2 { 
@@ -9,7 +11,7 @@ h2 {
 
 ul { 
     background-color: #eeeeee;
-    border: 5px, 5px, 5px, 5px;
+    border: 5px;
     border-color: purple;
     padding: 10px, 10px, 10px, 10px;
 }
