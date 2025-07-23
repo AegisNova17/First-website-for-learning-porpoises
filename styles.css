@@ -1,5 +1,5 @@
 /*Establishing font*/
-    h1, h2, h3, h4, ul, p {
+    #basicID, h1, h2, h3, h4, ul, p {
         font-family: "Lexend Deca";
     }
 
@@ -11,7 +11,7 @@
     }
 
     h1 {
-        font-size: 56px;
+        font-size: 32px;
         opacity: 100%;
 
         /**/
@@ -21,46 +21,46 @@
         text-align: center;
     }
 
-    h2 {
+    #basicID {
         text-indent: 40px;
         line-height: 40px;
-        font-weight: 300;
+        font-size: 32px;
+        font-weight: 125x;
         
-        width: 33%;
-        padding-left: 160px;
+        padding-left: 12.5%;
+        padding-right: 5%;
         padding-top: 36px;
         padding-bottom: 18px;
     }
 
     /* Top 10 FACTS */
-    h3 {
+    .tenFacts {
         display:block;
-        padding-left: 36px;
-        padding-right: 36px;
+        padding-left: 2.5%;
+        padding-right: 5%;
         padding-top: 54px;
         padding-bottom: 54px;
+        margin-right: 5%;
 
-        width: 45%;
 
         background-color: aquamarine;
 
-        font-weight: 300;
+        font-weight: 100;
     }
 
     /*Who, what, where*/
-    h4 {
-        padding-left: 36px;
-        padding-right: 36px;
+    .species {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
         padding-top: 54px;
         padding-bottom: 54px;
 
-        width: 45%;
 
         line-height: 36px;
 
         color: white;
 
-        font-weight: 300;
+        font-weight: 100;
     }
 
     h3::first-line, h4::first-line {
@@ -83,6 +83,15 @@
         background-size: cover;
     }
 
+/*Grid setup*/
+    #grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "x x";
+    column-gap: 5%;
+    column-width: 50%;
+    }
 
 /*Link Graphics*/
     a:hover {
