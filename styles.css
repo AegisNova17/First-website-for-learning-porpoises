@@ -1,6 +1,8 @@
 /*Establishing font*/
     #basicID, h1, h2, h3, h4, ul, p, #porpoises {
         font-family: "Lexend Deca";
+
+        animation: ease-in-out;
     }
 
 /*Typical and Legit Styling*/
@@ -52,6 +54,10 @@
         background-color: aquamarine;
 
         font-weight: 200;
+
+        
+        /*animation: ease-in-out 1.5s infinite 0.125s 1 reverse none;*/
+        animation: 3s ease-in 1s 2 reverse both paused slide-in;
     }
 
     /*Who, what, where*/
@@ -111,6 +117,7 @@
     .species {
         background-image: url(images/ImageFolder/Dolphins.png);
         background-size:cover;
+
     }
 
     .habitat {
@@ -122,6 +129,10 @@
         background-image: url(images/ImageFolder/famous-rivers.png);
         background-size: cover;
     }
+
+
+
+
 
 /*Grid setup*/
     #grid {
