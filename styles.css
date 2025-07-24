@@ -1,5 +1,5 @@
 /*Establishing font*/
-    #basicID, h1, h2, h3, h4, ul, p, #porpoises, .fwater, .tenFacts, .species, .habitat {
+    #basicID, h1, h2, h3, h4, ul, p, #porpoises, .fwater, .tenFacts, .species, .habitat, .websiteHeader{
         font-family: "Lexend Deca";
 
         animation: textFade;
@@ -46,6 +46,19 @@
         padding-left: 25%;
     }
     
+
+    .DSimage-container img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .websiteHeader {
+        display: absolute;
+        text-align: center;
+        top: 500px;
+    }
+
     /* Top 10 FACTS */
     .tenFacts {
         display:block;
