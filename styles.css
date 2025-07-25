@@ -54,9 +54,9 @@
     }
 
     .websiteHeader {
-        display: absolute;
-        text-align: center;
-        top: 500px;
+        position: absolute;
+
+        top: 250px;
     }
 
     /* Top 10 FACTS */
