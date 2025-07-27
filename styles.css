@@ -1,5 +1,5 @@
 /*Establishing font*/
-    #basicID, h1, h2, h3, h4, ul, p, #porpoises, .fwater, .tenFacts, .species, .habitat, .websiteHeader, #differences{
+    #basicID, h1, h2, h3, h4, ul, p, #porpoises, .fwater, .tenFacts, .species, .habitat, .websiteHeader, #differences, #orcas{
         font-family: "Lexend Deca";
 
         animation: textFade;
@@ -73,23 +73,48 @@
     }
 
     #differences {
-        width: 33%;
 
         margin-top: 2.5%;
+        margin-right: 2.5%;
         padding-top: 2%;
         padding-left: 12.5%;
-        padding-right: 12.5%;
+        padding-right: 1%;
         padding-bottom: 5%;
 
-        background-color: #d5fff5;
+        width: 80%;
     }
+
+    #orcas::first-line {
+        font-weight: 500;
+        font-size: 200%;
+    }
+
+    #speed::first-line {
+        font-weight: 400;
+        font-size: 150%;
+    }
+
+    #speed {
+        padding-bottom: 2%;
+        margin-bottom: 1%;
+    }
+
+    #orcas {
+        margin-top: 1%;
+        padding-top: 2.5%;
+
+        font-size: 112.5%;
+
+        width: 95%;
+    }
+
+
 
     #credits {
         font-size: 200%;
         font-weight: 200;
 
         font-family: "Lexend Deca";
-
 
         color: aquamarine;
 
@@ -173,13 +198,13 @@
     }
 
     #anilist {
+    text-decoration:underline;
+
     background: linear-gradient(90deg, aquamarine, black, rgb(255, 235, 120), black, aquamarine);
-    background-size: 300%;
     color: transparent;
+    background-size: 300%;
     background-clip: text;
     animation: gradient-shift 2s infinite linear;
-
-    text-decoration: underline;
 
     opacity: 100%;
     }
@@ -260,6 +285,7 @@
         padding-left: 7.5%;
         padding-right: 7.5%;
         padding-top: 16px;
+        margin-bottom: 2.5%;
     }
 
     h3::first-line, h4::first-line, #porpoises::first-line, #differences::first-line{
@@ -314,10 +340,20 @@
     column-gap: 5%;
     }
 
+    #secondGrid{
+        display: grid;
+
+        grid-template-columns: 2fr 2fr;
+    
+        background-color: #d5fff5;
+    }
+
 /*Link Graphics*/
     a:hover {
-        text-decoration: none;
+        text-decoration: underline;
         color:aquamarine; 
+
+        
     }
 
     a::after {
