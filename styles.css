@@ -1,5 +1,5 @@
 /*Establishing font*/
-    #basicID, h1, h2, h3, h4, ul, p, #porpoises, .fwater, .tenFacts, .species, .habitat, .websiteHeader, #differences, #orcas{
+    #basicID, h1, h2, h3, h4, ul, p, #porpoises, .fwater, .tenFacts, .species, .habitat, .websiteHeader, #differences, #orcas, #pods, #extinct{
         font-family: "Lexend Deca";
 
         animation: textFade;
@@ -28,90 +28,74 @@
         text-align: center;
     }
 
-    #basicID {
-        text-indent: 40px;
-        line-height: 40px;
-        font-size: 28px;
-        font-weight: 125x;
 
-        width: 120%;
-        
-        padding-left: 12.5%;
-        margin-right: 5%;
-        padding-top: 36px;
-        padding-bottom: 18px;
-    }
 
-    #ballsID {
-        margin-top: 2%;
-        padding-left: 25%;
-    }
+    /*done and done texts*/
     
+    /* Top 10 FACTS */
+    .tenFacts {
+        display:block;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 54px;
+        padding-bottom: 54px;
+        margin-right: 5%;
 
-    .DSimage-container img {
-        display: inline-block;
-        width: 100%;
-        height: auto;
-        opacity: 50%;
-    }
+        width: 107.5%;
 
-    .websiteHeader {
-        position: absolute;
+        background-color: aquamarine;
+
+        font-weight: 200;
         
-        top: 40vh;
+        position: relative;
 
-        padding-left: 25%;
-        padding-right: 25%;
 
-        display: inline-block;    
         
-        font-weight: 250;
     }
 
-    .websiteHeader::first-line {
-        font-size: 200%;
-        font-weight: 300;
+    /*Who, what, where*/
+    .species {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-top: 12px;
+        padding-bottom: 54px;
+
+
+        line-height: 36px;
+
+        color: white;
+
+        font-weight: 200;
     }
 
-    #differences {
+    .habitat {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-top: 12px;
+        padding-bottom: 54px;
 
-        margin-top: 2.5%;
-        margin-right: 2.5%;
-        padding-top: 2%;
-        padding-left: 12.5%;
-        padding-right: 1%;
-        padding-bottom: 5%;
 
-        width: 80%;
+        line-height: 36px;
+
+        color: white;
+
+        font-weight: 200;
     }
 
-    #orcas::first-line {
-        font-weight: 500;
-        font-size: 200%;
+    .fwater {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-top: 12px;
+        padding-bottom: 54px;
+
+
+        line-height: 36px;
+
+        color: white;
+
+        font-weight: 200;
     }
 
-    #speed::first-line {
-        font-weight: 400;
-        font-size: 150%;
-    }
-
-    #speed {
-        padding-bottom: 2%;
-        margin-bottom: 1%;
-    }
-
-    #orcas {
-        margin-top: 1%;
-        padding-top: 2.5%;
-
-        font-size: 112.5%;
-
-        width: 95%;
-    }
-
-    img {
-        border-radius: 2%;
-    }
 
     #credits {
         font-size: 200%;
@@ -218,71 +202,6 @@
         grid-template-columns: 2fr 2fr;
     }
 
-    /*done and done texts*/
-    
-    /* Top 10 FACTS */
-    .tenFacts {
-        display:block;
-        padding-left: 2%;
-        padding-right: 2%;
-        padding-top: 54px;
-        padding-bottom: 54px;
-        margin-right: 5%;
-
-        width: 107.5%;
-
-        background-color: aquamarine;
-
-        font-weight: 200;
-        
-        position: relative;
-
-
-        
-    }
-
-    /*Who, what, where*/
-    .species {
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        padding-top: 12px;
-        padding-bottom: 54px;
-
-
-        line-height: 36px;
-
-        color: white;
-
-        font-weight: 200;
-    }
-
-    .habitat {
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        padding-top: 12px;
-        padding-bottom: 54px;
-
-
-        line-height: 36px;
-
-        color: white;
-
-        font-weight: 200;
-    }
-
-    .fwater {
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        padding-top: 12px;
-        padding-bottom: 54px;
-
-
-        line-height: 36px;
-
-        color: white;
-
-        font-weight: 200;
-    }
 
     #porpoises {
         padding-left: 7.5%;
@@ -316,6 +235,176 @@
         background-size: cover;
     }
 
+    #basicID {
+        text-indent: 40px;
+        line-height: 40px;
+        font-size: 28px;
+        font-weight: 125x;
+
+        width: 120%;
+        
+        padding-left: 12.5%;
+        margin-right: 5%;
+        padding-top: 36px;
+        padding-bottom: 18px;
+    }
+
+    #ballsID {
+        margin-top: 2%;
+        padding-left: 25%;
+    }
+    
+    .DSimage-container img {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        opacity: 50%;
+    }
+
+    .websiteHeader {
+        position: absolute;
+        
+        top: 40vh;
+
+        padding-left: 25%;
+        padding-right: 25%;
+
+        display: inline-block;    
+        
+        font-weight: 250;
+    }
+
+    .websiteHeader::first-line {
+        font-size: 200%;
+        font-weight: 300;
+    }
+
+    #differences {
+
+        margin-top: 2.5%;
+        margin-right: 2.5%;
+        padding-top: 2%;
+        padding-left: 12.5%;
+        padding-right: 1%;
+        padding-bottom: 5%;
+
+        width: 80%;
+    }
+
+    #orcas::first-line {
+        font-weight: 500;
+        font-size: 200%;
+    }
+
+    #speed::first-line {
+        font-weight: 400;
+        font-size: 150%;
+    }
+
+    #speed {
+        padding-bottom: 2%;
+        margin-bottom: 1%;
+    }
+
+    #orcas {
+        margin-top: 1%;
+        padding-top: 2.5%;
+
+        font-size: 112.5%;
+
+        width: 95%;
+    }
+
+    #smolDolph {
+        text-align: center;
+        font-size: 200%;
+
+        padding-top: 2.5%;
+
+        color: white;
+
+        background-color: #253846;
+    }
+
+    #smolDolph{
+        font-family: "Parisienne";
+
+        animation: textFade;
+        animation-timing-function: ease-in;
+        animation-fill-mode: both;
+
+        animation-timeline: view();
+        animation-range: 0vh 60vh;
+    }
+
+    #smolDolph::first-line {
+        font-size: 300%;
+    }
+
+    #pods {
+        padding-left: 20%;
+        font-size: 125%;
+        margin-right: 5%;
+    }
+
+    #pods::first-line {
+        font-size: 170%;
+        font-weight: 425;
+    }
+
+    #extinct {
+        padding-right: 20%;
+        font-size: 125%;
+        margin-left: 5%;
+    }
+
+    #extinct::first-line {
+        font-size: 170%;
+        font-weight: 425;
+    }
+
+    #endangered{
+        background-image: url(images/ImageFolder/sunsetDolph.png);
+        background-size: cover;
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+        animation: background-scrolldown;
+        animation-fill-mode: both;
+        animation-timeline: view();
+        animation-range: 0vh 500vh;
+    }
+
+    #endangText {
+        background-color: rgb(51, 64, 82);
+
+        text-align: center;
+
+        color: white;
+
+        font-family: "Lexend Deca";
+        font-weight: 300;
+        font-size: 125%;
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+
+        margin-top: 7cap;
+        margin-bottom: 7.5%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #endangText::first-line {
+        font-size:  150%;
+        font-weight: 400;
+    }
+
+
+
 
 /*YAYYY Animation time 7/24/2025*/
 @keyframes flyInFromLeft {
@@ -334,6 +423,12 @@
     100%{background-position: 150% 300%;}
 }
 
+@keyframes background-scrolldown {
+    from {background-position-y: -300px;}
+    to {background-position-y: 700px;}
+}
+
+
 /*Grid setup*/
     #grid {
     height: 100%;
@@ -351,6 +446,29 @@
         background-color: #d5fff5;
     }
 
+    #sizeGrid {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+        padding-bottom: 5%;
+    }
+
+    #podExtinctGrid {
+        display: grid; 
+
+        grid-template-columns: 1fr 1fr;
+
+        color:#253846;
+
+        background-color: white;
+
+        font-weight: 250;
+
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
 /*Link Graphics*/
     a:hover {
         text-decoration: underline;
@@ -364,3 +482,7 @@
     }
 
 
+
+    img {
+        border-radius: 2%;
+    }
